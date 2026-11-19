@@ -1,0 +1,17 @@
+.DS_Store
+node_modules/
+dist/
+*.tsbuildinfo
+.env
+.env.*
+!.env.example
+.dev.vars
+.dev.vars.*
+.cloudflare/
+.wrangler/
+playwright-report/
+test-results/
+coverage/
+auto-imports.d.ts
+components.d.ts
+.neon

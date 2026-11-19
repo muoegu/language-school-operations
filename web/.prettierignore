@@ -1,0 +1,6 @@
+.cloudflare
+dist
+node_modules
+src/api/generated
+coverage
+test-results

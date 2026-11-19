@@ -1,0 +1,22 @@
+{
+  "name": "portfolio-system",
+  "private": true,
+  "packageManager": "pnpm@10.7.1",
+  "scripts": {
+    "dev": "pnpm --parallel --filter=./api --filter=./web dev",
+    "build": "pnpm build:api",
+    "dev:api": "pnpm --dir api dev",
+    "build:api": "pnpm --dir api build",
+    "test:api": "pnpm --dir api test",
+    "dev:web": "pnpm --dir web dev",
+    "dev:worker": "pnpm --dir web dev:worker",
+    "build:web": "pnpm --dir web build",
+    "build:worker": "pnpm --dir web build:worker",
+    "types:worker": "pnpm --dir web types:worker",
+    "type-check:web": "pnpm --dir web type-check"
+  },
+  "dependencies": {
+    "@neon/config": "^1.14.3",
+    "@neon/env": "^2.1.6"
+  }
+}
